@@ -47,7 +47,7 @@ while True:
 
             with open("pesquisa_habitantes.txt", "a") as file:
                 for habitante in lista_habitantes:
-                    file.write(f"idade::{habitante.idade}, sexo:{habitante.sexo}, salário:{habitante.salario}, quantas mulheres com salario acima de 5000:{contador_mulher}\n")
+                    file.write(f"idade::{habitante.idade}, sexo:{habitante.sexo}, salário:{habitante.salario}, quantas mulheres com salário acima de 5000:{contador_mulher}\n")
 
         case "2":
             print("=====EXIBINDO RESULTADOS=====")
