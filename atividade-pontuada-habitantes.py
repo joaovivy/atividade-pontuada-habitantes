@@ -1,9 +1,10 @@
-# Leonardo Araujo, João Filipe
+# Turma = G93313
+# Gustavo de Jesus Batista, João Gabriel Dos Santos e Itauã Gualberto Borges 
 
 import os 
-os.system("cls || clear")
-
 from dataclasses import dataclass
+
+os.system("cls || clear")
 
 @dataclass
 class Habitantes:
@@ -11,16 +12,10 @@ class Habitantes:
     idade: int
     sexo: str
 
-
-#variaveis
-
-
-
 contador_mulheres = 0
 contador_habitantes = 0
 contador_mulher = 0
 
-#calculos
 lista_salarial = []
 lista_idade = []
 lista_habitantes = []
@@ -36,9 +31,9 @@ while True:
     match menu:
         case "1":
             os.system("cls || clear")
-            idade = int(input("Digite sua idade: "))
-            sexo = input("Digite seu genero [F/M]: ").upper()
-            salario = float(input("Digite o seu salário: "))
+            idade = int(input("Digite uma idade: "))
+            sexo = input("Digite um gênero [F/M]: ").upper()
+            salario = float(input("Digite um salário: "))
             habitante = Habitantes( 
                 idade= idade, sexo=sexo, salario=salario
             )
@@ -67,11 +62,11 @@ while True:
             print(f"Média de salário é de: {media_salarial: .2f}")
             print(f"Maior idade: {maior_idade}")
             print(f"Menor idade: {menor_idade}")
-            print(f"Quantidade de mulheres com salário a acima de 5000 R$: {contador_mulher} ")
+            print(f"Quantidade de mulheres com salário acima de 5000 R$: {contador_mulher} ")
 
         case "3":
-            print("fim")
+            print("\n=== FIM ===")
             break
 
         case _:
-           print("opção invalida!!")
+           print("opção invalida, digite novamente!")
