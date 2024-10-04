@@ -69,4 +69,4 @@ while True:
             break
 
         case _:
-           print("opção invalida, digite novamente!")
+           print("opção inválida, digite novamente!")
