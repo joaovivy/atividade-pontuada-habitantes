@@ -16,7 +16,7 @@ contador_mulheres = 0
 contador_habitantes = 0
 contador_mulher = 0
 
-lista_salarial = []
+lista_salario = []
 lista_idade = []
 lista_habitantes = []
 
@@ -37,7 +37,7 @@ while True:
             habitante = Habitantes( 
                 idade= idade, sexo=sexo, salario=salario
             )
-            lista_salarial.append(habitante.salario)
+            lista_salario.append(habitante.salario)
             lista_habitantes.append(habitante)
             lista_idade.append(habitante.idade)
 
@@ -53,8 +53,8 @@ while True:
             print("=====EXIBINDO RESULTADOS=====")
         
 
-            total_habitantes = len(lista_salarial)
-            total_salario = sum(lista_salarial)
+            total_habitantes = len(lista_salario)
+            total_salario = sum(lista_salario)
             media_salarial = total_salario / total_habitantes
             maior_idade = max(lista_idade)
             menor_idade = min(lista_idade)
