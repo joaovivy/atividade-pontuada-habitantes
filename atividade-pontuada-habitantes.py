@@ -12,8 +12,6 @@ class Habitantes:
     idade: int
     sexo: str
 
-contador_mulheres = 0
-contador_habitantes = 0
 contador_mulher = 0
 
 lista_salario = []

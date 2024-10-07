@@ -15,3 +15,4 @@ idade::40, sexo:F, salario:1000.0, quantos mulherescom salario acima de 5000:1
 idade::18, sexo:M, salario:2000.0, quantos mulherescom salario acima de 5000:1
 idade::18, sexo:F, salario:3000.0, quantos mulherescom salario acima de 5000:0
 idade::20, sexo:F, salário:6000.0, quantas mulheres com salario acima de 5000:1
+idade::34, sexo:DF, salário:54544.0, quantas mulheres com salário acima de 5000:0
